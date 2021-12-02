@@ -14,6 +14,7 @@ spec:
 
   experiments:
     - pod-delete
+    - echo-chaos
     - container-kill
     - pod-cpu-hog
     - pod-network-loss
