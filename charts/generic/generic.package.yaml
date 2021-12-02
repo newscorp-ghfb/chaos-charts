@@ -3,6 +3,9 @@ experiments:
   - name: pod-delete
     CSV: pod-delete.chartserviceversion.yaml
     desc: "pod-delete"
+  - name: echo-chaos
+    CSV: echo-chaos.chartserviceversion.yaml
+    desc: "echo-chaos"
   - name: container-kill
     CSV: container-kill.chartserviceversion.yaml
     desc: "container-kill"
